@@ -45,4 +45,4 @@ Cookies are saved in `cookies` directory under user's name, e.g. `cookies/userna
 All saved data is stored in `saved`, e.g. `saved/username`:
 
 * `posts` - contains actual saved posts data, grouped by author
-* `json` - contains raw JSON responses from Instagram API. You force script to use this data by passing `--from-cache` argument (to avoid calling the API, useful for subsequent runs)
+* `json` - contains raw JSON responses from Instagram API. You can force script to use this data by passing `--from-cache` argument (to avoid calling the API, useful for subsequent runs)
